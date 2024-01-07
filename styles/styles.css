@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.part1_container {
+    background: url('/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.part1 {
+    position: relative;
+    /* top: 30%;
+    left: 60%; */
+    margin: 0 0 0 630px;
+    padding-top: 140px;
+    padding-right: 150px;
+    text-align: right;
+}
+
+.part1_title {
+    color: var(--Dark-01, #151414);
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.part1_description {
+    color: var(--Dark-02, #444343);
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn_primery {
+    color: #FFF;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    padding: 15px 15px;
+    margin-top: 25px;
+}
+
+.part2_container {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* max-width: 500px; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #F15B22; */
+}
+
+.pic_container {
+    display: flex;
+}
+
+.person {
+    width: 300px;
+    position: absolute;
+    /* z-index: 1000; */
+    /* background-image: url('/images/gradient2.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+.circle {
+    margin-top: 102px;
+    margin-left: 12px;
+    width: 278px;
+    height: 278px;
+    /* background: linear-gradient(0deg, #00b7ff 0%, rgba(0, 95, 172, 0.00) 100%); */
+    background-image: url('/images/gradient2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    align-self: self-end;
+}
+
+.part2 {
+    margin-top: 100px;
+    margin-left: 200px;
+    /* text-align: justify; */
+}
+
+.part2_title {
+    color: #151414;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.part2_description {
+    color: #444343;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.part2_ul li {
+    /* list-style: url('/images/icons/check\ 1.svg');
+    list-style-image: url('/images/icons/check\ 1.svg'); */
+    color: #444343;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.planes_title {
+    margin-top: 80px;
+    text-align: center;
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 40px;
+}
+
+.part3_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px;
+    text-align: center;
+}
+
+.part3 {
+    padding: 10px;
+}
+
+.part3_title {
+    color: #151414;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.part3_description {
+    color: #737272;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.call {
+    background: url('/images/watch.png');
+    margin: 80px 100px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part4_container {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    height: 200px;
+    width: 100%;
+}
+
+.part4_title {
+    color: #FFF;
+    padding-top: 55px;
+    padding-left: 55px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 400px;
+}
+
+.btn_secondery {
+    border-radius: 5px;
+    background: #FFF;
+    padding: 12px 20px;
+    color: #F15B22;
+    border: 0;
+    margin-left: 55px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: #151414;
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.foot_item {
+    max-width: 400px;
+}
+
+.future {
+    color: #F8F8F8;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.future_description {
+    color: #FFF;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.email{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.sub_title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.email_input{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #151414;
+    color: #FFF;
+    border-radius: 5px;
+    border: 2px solid wheat;
+    margin-bottom: 16px;
+}
+.sub_btn{
+    margin: 0;
+}
